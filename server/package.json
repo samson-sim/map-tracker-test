@@ -1,0 +1,21 @@
+{
+  "name": "map-tracker-mock-server",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "ts-node --esm index.ts",
+    "build": "tsc",
+    "start": "npm run build && node dist/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
